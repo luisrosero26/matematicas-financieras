@@ -1,0 +1,51 @@
+completion_text: |-
+  <p>Completo quiz 1</p>
+description: |-
+  Desc quiz 1
+groups:
+- id: intro
+  pages:
+  - content: "<p>Contenido <i>quiz</i> 1&nbsp;</p> "
+    id: welcome
+    title: Quiz1
+    type: Page
+- id: quiz_start
+  pages:
+  - answers: [<plain>Yoga Gimnasia]
+    id: quizquestion22
+    prompt: ''
+    title: Preg 1
+    type: TextQuestion
+    value: 40.0
+  - choices: [Resp 3, ~CORRECT~ Resp2, Resp1]
+    id: quizquestion23
+    prompt: ''
+    title: Pregunta 2
+    type: ChoiceQuestion
+    value: 30.0
+  - choices: [Falsa 2, Falsa 1, ~CORRECT~ Real 2, ~CORRECT~ Real 1]
+    credit_mode: exact
+    id: quizquestion24
+    prompt: ''
+    shuffle: true
+    title: Preg3
+    type: MultipleChoiceQuestion
+    value: 30.0
+  shuffle: true
+rules:
+  access:
+  - message: "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de\
+      \ acceso."
+    permissions: [view, submit_answer, end_session, see_correctness, see_answer_after_submission]
+  grade_aggregation_strategy: avg_grade
+  grade_identifier: quiz11
+  grading:
+  - {credit_percent: 100}
+  start:
+  - if_before: 2020-07-07 18:40:14+00:00
+    if_has_fewer_sessions_than: 2
+    if_has_role: [student, ta, instructor]
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - {may_list_existing_sessions: true, may_start_new_session: false}
+title: Quiz1
