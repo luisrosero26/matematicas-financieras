@@ -1,0 +1,28 @@
+completion_text: |-
+  <p><b>Completado</b> Flujo 1</p>
+description: |-
+  Desc flujo 1
+next_flow_id: flow9
+next_flow_title: "Siguiente m\xF3dulo"
+pages:
+- content: |-
+    <p>Cont Pg1&nbsp;</p>
+  id: page16
+  title: Pg1
+  type: Page
+- content: |-
+    Cont Pg2
+  id: page17
+  title: Pg2
+  type: Page
+- content: |-
+    <p>Cont PG3</p>
+  id: page20
+  title: Pg3
+  type: Page
+rules:
+  access:
+  - if_has_role: [ta, student, instructor]
+    permissions: [view]
+  grade_identifier: null
+title: Flujo 1
