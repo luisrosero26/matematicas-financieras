@@ -1,0 +1,24 @@
+chunks:
+- content: ''
+  flows:
+  - flow_id: flow7
+    next_flow: flow9
+    pages:
+    - {flow_id: page16, title: Pg1}
+    - {flow_id: page17, title: Pg2}
+    - {flow_id: page20, title: Pg3}
+    title: Flujo 1
+    title_next_flow: "Siguiente m\xF3dulo"
+  - flow_id: flow9
+    next_flow: null
+    pages:
+    - {flow_id: page21, title: Pg1}
+    title: Flujo 2
+    title_next_flow: ''
+  id: welcome
+  introduction: '<p><b>Intro</b> curso con foto&nbsp;</p><p><img src="https://myhub-bucket.s3.amazonaws.com/media/django-summernote/2020-06-26/dcb6b9c2-0bc2-4847-9c89-a4eb89fb7f27.png"
+    style="width: 698px;"></p><p><br></p><p>Y video&nbsp;</p><p><br></p><p><iframe
+    frameborder="0" src="//www.youtube.com/embed/QIIEvplcB7k" width="640" height="360"
+    class="note-video-clip"></iframe><br></p>'
+  rules: []
+  title: "Matem\xE1ticas financieras"
