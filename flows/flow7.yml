@@ -2,8 +2,8 @@ completion_text: |-
   <p><b>Completado</b> Flujo 1</p>
 description: |-
   Desc flujo 1
-next_flow_id: flow9
-next_flow_title: "Siguiente m\xF3dulo"
+next_flow_id: quiz11
+next_flow_title: Tomar Quiz
 pages:
 - content: |-
     <p>Cont Pg1&nbsp;</p><p><img src="https://myhub-bucket.s3.amazonaws.com/media/django-summernote/2020-06-26/4edeed19-e76e-42be-aa2e-a9249c5e8eca.jpg" style="width: 698px;"><br></p>
