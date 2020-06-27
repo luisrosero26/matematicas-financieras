@@ -6,6 +6,11 @@ next_flow_id: quiz11
 next_flow_title: Tomar Quiz
 pages:
 - content: |-
+    <p>Contenido flujo 1</p><p><img src="https://myhub-bucket.s3.amazonaws.com/media/django-summernote/2020-06-26/ae41d04e-9f7c-41a7-aec4-c3642b5ad9d4.png" style="width: 642px;">1<br></p>
+  id: intro
+  title: INICIO
+  type: Page
+- content: |-
     <p>Cont Pg1&nbsp;</p><p><img src="https://myhub-bucket.s3.amazonaws.com/media/django-summernote/2020-06-26/4edeed19-e76e-42be-aa2e-a9249c5e8eca.jpg" style="width: 698px;"><br></p>
   id: page16
   title: Pg1
