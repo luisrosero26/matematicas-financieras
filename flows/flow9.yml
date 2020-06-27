@@ -2,8 +2,8 @@ completion_text: |-
   <p>Completo flujo 2</p>
 description: |-
   Desc flujo 2
-next_flow_id: ''
-next_flow_title: ''
+next_flow_id: quiz12
+next_flow_title: Tomar quiz
 pages:
 - content: "<p>S\xF3lo pg 1</p>"
   id: page21
