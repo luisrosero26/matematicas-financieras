@@ -4,15 +4,19 @@ chunks:
   - flow_id: flow7
     next_flow: quiz11
     pages:
-    - {flow_id: page16, title: Pg1}
-    - {flow_id: page17, title: Pg2}
-    - {flow_id: page20, title: Pg3}
+    - flow_id: page16
+      title: Pg1
+    - flow_id: page17
+      title: Pg2
+    - flow_id: page20
+      title: Pg3
     title: Flujo 1
     title_next_flow: Tomar Quiz
   - flow_id: flow9
     next_flow: quiz12
     pages:
-    - {flow_id: page21, title: Pg1}
+    - flow_id: page21
+      title: Pg1
     title: Flujo 2
     title_next_flow: Tomar quiz
   id: welcome
