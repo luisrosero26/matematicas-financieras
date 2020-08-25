@@ -12,7 +12,7 @@ groups:
 - id: quiz_start
   pages:
   - answers:
-    - <plain>Yoga Gimnasia
+    - <plain>Si
     id: quizquestion22
     prompt: ''
     title: Preg 1
@@ -53,7 +53,7 @@ rules:
   grading:
   - credit_percent: 100
   start:
-  - if_before: 2020-07-07 18:40:14+00:00
+  - if_before: 2020-08-31 18:40:14+00:00
     if_has_fewer_sessions_than: 2
     if_has_role:
     - student
