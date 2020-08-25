@@ -12,7 +12,7 @@ groups:
 - id: quiz_start
   pages:
   - choices:
-    - ~CORRECT~ Resp1
+    - ~CORRECT~ SI
     id: quizquestion26
     prompt: ''
     title: '1'
@@ -32,7 +32,7 @@ rules:
   grading:
   - credit_percent: 100
   start:
-  - if_before: 2020-07-10 19:09:11+00:00
+  - if_before: 2020-08-31 19:09:11+00:00
     if_has_fewer_sessions_than: 1
     if_has_role:
     - student
